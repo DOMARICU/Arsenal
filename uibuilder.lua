@@ -1,4 +1,4 @@
-local ui = require(script.Parent.ModuleScript)
+local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/DOMARICU/Arsenal/refs/heads/main/myuimodule.lua"))()
 local backend = require(script.Parent.backend)
 
 
