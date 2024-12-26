@@ -1,5 +1,5 @@
 local ui = loadstring(game:HttpGet("https://raw.githubusercontent.com/DOMARICU/Arsenal/refs/heads/main/myuimodule.lua"))()
-local backend = require(script.Parent.backend)
+local backend = loadstring(game:HttpGet("https://raw.githubusercontent.com/DOMARICU/Arsenal/refs/heads/main/mybackend.lua"))()
 
 
 local function builder()
