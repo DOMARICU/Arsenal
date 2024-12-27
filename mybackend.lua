@@ -10,7 +10,7 @@ local lg = {
 
 local setting = {
     aimbotEnabled = false,
-    fovCircleEnabled = false,
+    fovCircleEnabled = true,
     ignoreWalls = false,
     flying = false,
     flySpeed = 50,
